@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width,initial scale=1'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
+    integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg=="
+    crossorigin="anonymous" />
+  
+
+  <style>
+      html{
+          scroll-behavior: smooth;
+      }
+      /* .fp-controlArrow.fp-next{
+
+      }
+      .fp-controlArrow{
+        bo
+      } */
+    body {
+      margin-top: 0px;
+      padding: 0;
+    }
+
+    .s1{
+      /* background: url("pexels-pixabay-273230.jpg"); */
+      background:red;
+    }
+    .s2{
+      /* background: url("pexels-pixabay-273230.jpg"); */
+      background:yellow;
+    }
+    .s3{
+      /* background: url("pexels-pixabay-273230.jpg"); */
+      background: green;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section s1 text-center">
+      <h1>first slide</h1>
+    </div>
+    <div class="section s2">
+       
+        <div id="main" class="slide"><h1>second.1</h1>
+           
+        </div>
+        <div id="login" class="slide"><h1>second.2</h1>
+          
+        </div>
+        <div id="register" class="slide"><h1>second.3</h1>
+          
+        </div>
+        
+      
+    </div>
+    <div class="section s3">
+      <h1>Third slide</h1>
+    </div>
+    
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+    integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+    crossorigin="anonymous"></script>
+    <script>
+      new fullpage('#fullpage', {
+        autoScrolling: true,
+        responsiveWidth: 0
+      })
+    </script>
+</body>
+
+</html>
